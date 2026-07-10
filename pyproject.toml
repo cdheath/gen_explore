@@ -1,0 +1,38 @@
+[project]
+name = "gen-explore"
+version = "0.1.0"
+description = "Superimposed candidate-line sketch generation: aligned rough variants vectorized into a multi-candidate SVG"
+authors = [
+    { email = "corey.d.heath@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "diffusers>=0.31.0",
+    "transformers>=4.46.0",
+    "accelerate>=1.1.0",
+    "controlnet-aux>=0.0.10",
+    "pillow>=10.0.0",
+    "numpy",
+    "safetensors",
+    "scikit-image>=0.24.0",
+    "opencv-python-headless>=4.10.0",
+    "bitsandbytes>=0.45.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
