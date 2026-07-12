@@ -9,6 +9,8 @@ and all restyle-needing work together, rather than interleaving calls -- see
 scripts/generate_character_actions.py for the batching pattern.
 """
 
+import gc
+
 import torch
 from controlnet_aux import HEDdetector
 from diffusers import BitsAndBytesConfig as DiffusersBitsAndBytesConfig
@@ -48,6 +50,19 @@ class ModelBundle:
             del self._controlnet_pipe
             self._controlnet_pipe = None
             torch.cuda.empty_cache()
+
+    def unload_all(self) -> None:
+        """Frees every model this bundle may hold (both pipelines, the HED
+        detector) so nothing is resident on GPU/CPU once a top-level api.py
+        call returns -- standalone API functions call this in a `finally`
+        block, regardless of whether generation succeeded."""
+        self._unload_kontext()
+        self._unload_controlnet()
+        if self.hed_detector is not None:
+            del self.hed_detector
+            self.hed_detector = None
+        gc.collect()
+        torch.cuda.empty_cache()
 
     @property
     def kontext(self) -> FluxKontextPipeline:

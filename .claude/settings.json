@@ -49,7 +49,16 @@
       "Bash(inkscape --export-type=png --export-background=white -w 1024 -h 1024 -o /tmp/claude-1000/-home-ubuntuhome-projects-gen-explore/8bd5f89d-8172-4429-98f3-f6e82f8f2906/scratchpad/final_writing.png output/flux_actions_final/layers/action_writing_at_a_desk.svg)",
       "Bash(python3 -m py_compile src/gen_explore/vectorize.py)",
       "Bash(inkscape --export-type=png --export-background=white -w 1024 -h 1024 -o /tmp/claude-1000/-home-ubuntuhome-projects-gen-explore/8bd5f89d-8172-4429-98f3-f6e82f8f2906/scratchpad/chunked_book.png output/flux_actions_final/layers/action_standing_holding_a_book_chunked.svg)",
-      "Bash(inkscape --export-type=png --export-background=white -w 1024 -h 1024 -o /tmp/claude-1000/-home-ubuntuhome-projects-gen-explore/8bd5f89d-8172-4429-98f3-f6e82f8f2906/scratchpad/chunked_writing.png output/flux_actions_final/layers/action_writing_at_a_desk_chunked.svg)"
+      "Bash(inkscape --export-type=png --export-background=white -w 1024 -h 1024 -o /tmp/claude-1000/-home-ubuntuhome-projects-gen-explore/8bd5f89d-8172-4429-98f3-f6e82f8f2906/scratchpad/chunked_writing.png output/flux_actions_final/layers/action_writing_at_a_desk_chunked.svg)",
+      "Bash(python3 -m py_compile src/gen_explore/models.py)",
+      "Bash(python3 -m py_compile src/gen_explore/api.py)",
+      "Bash(unzip -l dist/gen_explore-0.2.0-py3-none-any.whl)",
+      "Bash(mkdir -p /tmp/claude-1000/-home-ubuntuhome-projects-gen-explore/8bd5f89d-8172-4429-98f3-f6e82f8f2906/scratchpad/wheel_test)",
+      "Bash(uv venv *)",
+      "Bash(uv pip *)",
+      "Bash(./.venv/bin/python -c ' *)",
+      "Bash(./.venv/bin/python -u test_api.py)",
+      "Bash(./.venv/bin/python -u test_background.py)"
     ]
   }
 }

@@ -1,7 +1,7 @@
 [project]
 name = "gen-explore"
-version = "0.1.0"
-description = "Superimposed candidate-line sketch generation: aligned rough variants vectorized into a multi-candidate SVG"
+version = "0.2.0"
+description = "Character/background sketch generation: create_character() and create_background() produce superimposed candidate-line SVGs for human cleanup"
 authors = [
     { email = "corey.d.heath@gmail.com" }
 ]
