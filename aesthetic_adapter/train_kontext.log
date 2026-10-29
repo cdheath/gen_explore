@@ -1,0 +1,172 @@
+2026-09-24 06:45:57,141 INFO Bootstrap corpus: 2673 image-modality files (limit=None)
+2026-09-24 06:46:25,305 INFO Captions ready for 2673/2673 files
+2026-09-24 06:46:25,935 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:25,946 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:26,059 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  21%|██        | 121/590 [00:00<00:00, 1209.48it/s]Loading weights:  42%|████▏     | 245/590 [00:00<00:00, 1223.18it/s]Loading weights:  62%|██████▏   | 368/590 [00:00<00:00, 1187.55it/s]Loading weights:  83%|████████▎ | 487/590 [00:00<00:00, 1144.35it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 1168.46it/s]
+2026-09-24 06:46:30,679 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:30,756 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:30,834 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:30,914 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:30,992 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:31,071 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:31,147 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:31,155 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:31,237 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:31,311 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:31,319 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:31,393 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:31,402 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:31,562 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:31,569 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:31,660 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:31,744 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-24 06:46:32,550 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:32,558 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:32,653 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  70%|██████▉   | 411/590 [00:00<00:00, 4105.22it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 3949.33it/s]
+2026-09-24 06:46:33,374 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,452 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,528 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,604 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,684 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,761 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,836 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:33,845 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:33,922 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:33,999 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:34,007 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:34,082 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:34,089 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:34,183 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-24 06:46:34,190 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-24 06:46:34,269 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-24 06:46:34,347 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+2026-09-24 06:50:17,565 INFO Training examples after caption/encode join: 2673
+2026-09-24 06:50:17,573 INFO Loading black-forest-labs/FLUX.1-Kontext-dev (quantized NF4, frozen, torch.bfloat16, no cpu offload)...
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+2026-09-24 06:50:17,684 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/transformer/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:50:17,778 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev "HTTP/1.1 200 OK"
+2026-09-24 06:50:17,871 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev/revision/main "HTTP/1.1 200 OK"
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files: 100%|██████████| 3/3 [00:00<00:00, 2734.82it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:21<00:42, 21.06s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:41<00:20, 20.85s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:50<00:00, 15.53s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:50<00:00, 16.99s/it]
+2026-09-24 06:51:09,238 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/config.json "HTTP/1.1 200 OK"
+2026-09-24 06:51:09,335 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/model.safetensors "HTTP/1.1 404 Not Found"
+2026-09-24 06:51:09,416 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-09-24 06:51:09,504 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev/revision/main "HTTP/1.1 200 OK"
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 1443.08it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s]Loading weights:   1%|          | 2/219 [00:00<00:14, 14.77it/s]Loading weights:   2%|▏         | 5/219 [00:00<00:10, 19.86it/s]Loading weights:   4%|▎         | 8/219 [00:00<00:16, 13.01it/s]Loading weights:   5%|▍         | 10/219 [00:00<00:16, 12.85it/s]Loading weights:   5%|▌         | 12/219 [00:00<00:15, 13.39it/s]Loading weights:   6%|▋         | 14/219 [00:00<00:14, 14.02it/s]Loading weights:   7%|▋         | 16/219 [00:01<00:14, 13.61it/s]Loading weights:   8%|▊         | 18/219 [00:01<00:19, 10.16it/s]Loading weights:  10%|▉         | 21/219 [00:01<00:15, 12.88it/s]Loading weights:  11%|█         | 23/219 [00:01<00:14, 13.55it/s]Loading weights:  11%|█▏        | 25/219 [00:01<00:14, 13.32it/s]Loading weights:  12%|█▏        | 27/219 [00:02<00:18, 10.20it/s]Loading weights:  14%|█▎        | 30/219 [00:02<00:14, 12.99it/s]Loading weights:  15%|█▍        | 32/219 [00:02<00:13, 13.62it/s]Loading weights:  16%|█▌        | 34/219 [00:02<00:13, 13.38it/s]Loading weights:  16%|█▋        | 36/219 [00:02<00:17, 10.25it/s]Loading weights:  18%|█▊        | 39/219 [00:03<00:13, 13.02it/s]Loading weights:  19%|█▊        | 41/219 [00:03<00:13, 13.64it/s]Loading weights:  20%|█▉        | 43/219 [00:03<00:13, 13.39it/s]Loading weights:  21%|██        | 45/219 [00:03<00:16, 10.27it/s]Loading weights:  22%|██▏       | 48/219 [00:03<00:13, 13.02it/s]Loading weights:  23%|██▎       | 50/219 [00:03<00:12, 13.64it/s]Loading weights:  24%|██▎       | 52/219 [00:04<00:12, 13.39it/s]Loading weights:  25%|██▍       | 54/219 [00:04<00:16, 10.27it/s]Loading weights:  26%|██▌       | 57/219 [00:04<00:12, 13.02it/s]Loading weights:  27%|██▋       | 59/219 [00:04<00:11, 13.61it/s]Loading weights:  28%|██▊       | 61/219 [00:04<00:11, 13.37it/s]Loading weights:  29%|██▉       | 63/219 [00:05<00:15, 10.27it/s]Loading weights:  30%|███       | 66/219 [00:05<00:11, 12.82it/s]Loading weights:  31%|███       | 68/219 [00:05<00:11, 13.47it/s]Loading weights:  32%|███▏      | 70/219 [00:05<00:11, 13.27it/s]Loading weights:  33%|███▎      | 72/219 [00:05<00:14, 10.17it/s]Loading weights:  34%|███▍      | 75/219 [00:05<00:11, 12.87it/s]Loading weights:  35%|███▌      | 77/219 [00:06<00:10, 13.53it/s]Loading weights:  36%|███▌      | 79/219 [00:06<00:10, 13.24it/s]Loading weights:  37%|███▋      | 81/219 [00:06<00:13, 10.16it/s]Loading weights:  38%|███▊      | 84/219 [00:06<00:10, 12.90it/s]Loading weights:  39%|███▉      | 86/219 [00:06<00:09, 13.55it/s]Loading weights:  40%|████      | 88/219 [00:06<00:09, 13.33it/s]Loading weights:  41%|████      | 90/219 [00:07<00:12, 10.25it/s]Loading weights:  42%|████▏     | 93/219 [00:07<00:09, 12.95it/s]Loading weights:  43%|████▎     | 95/219 [00:07<00:09, 13.58it/s]Loading weights:  44%|████▍     | 97/219 [00:07<00:09, 13.32it/s]Loading weights:  45%|████▌     | 99/219 [00:08<00:11, 10.21it/s]Loading weights:  47%|████▋     | 102/219 [00:08<00:09, 12.96it/s]Loading weights:  47%|████▋     | 104/219 [00:08<00:08, 13.54it/s]Loading weights:  48%|████▊     | 106/219 [00:08<00:08, 13.32it/s]Loading weights:  49%|████▉     | 108/219 [00:08<00:10, 10.24it/s]Loading weights:  51%|█████     | 111/219 [00:08<00:08, 12.78it/s]Loading weights:  52%|█████▏    | 113/219 [00:09<00:08, 13.19it/s]Loading weights:  53%|█████▎    | 115/219 [00:09<00:07, 13.06it/s]Loading weights:  53%|█████▎    | 117/219 [00:09<00:10, 10.12it/s]Loading weights:  55%|█████▍    | 120/219 [00:09<00:07, 12.87it/s]Loading weights:  56%|█████▌    | 122/219 [00:09<00:07, 13.39it/s]Loading weights:  57%|█████▋    | 124/219 [00:09<00:07, 13.21it/s]Loading weights:  58%|█████▊    | 126/219 [00:10<00:09, 10.15it/s]Loading weights:  59%|█████▉    | 129/219 [00:10<00:06, 12.90it/s]Loading weights:  60%|█████▉    | 131/219 [00:10<00:06, 13.52it/s]Loading weights:  61%|██████    | 133/219 [00:10<00:06, 13.30it/s]Loading weights:  62%|██████▏   | 135/219 [00:10<00:08, 10.24it/s]Loading weights:  63%|██████▎   | 138/219 [00:11<00:06, 12.96it/s]Loading weights:  64%|██████▍   | 140/219 [00:11<00:05, 13.59it/s]Loading weights:  65%|██████▍   | 142/219 [00:11<00:05, 13.32it/s]Loading weights:  66%|██████▌   | 144/219 [00:11<00:07, 10.24it/s]Loading weights:  67%|██████▋   | 147/219 [00:11<00:05, 12.79it/s]Loading weights:  68%|██████▊   | 149/219 [00:11<00:05, 13.30it/s]Loading weights:  69%|██████▉   | 151/219 [00:12<00:05, 11.65it/s]Loading weights:  70%|██████▉   | 153/219 [00:12<00:06,  9.49it/s]Loading weights:  71%|███████   | 156/219 [00:12<00:05, 12.20it/s]Loading weights:  72%|███████▏  | 158/219 [00:12<00:04, 12.95it/s]Loading weights:  73%|███████▎  | 160/219 [00:12<00:04, 12.89it/s]Loading weights:  74%|███████▍  | 162/219 [00:13<00:05, 10.05it/s]Loading weights:  75%|███████▌  | 165/219 [00:13<00:04, 12.79it/s]Loading weights:  76%|███████▋  | 167/219 [00:13<00:03, 13.43it/s]Loading weights:  77%|███████▋  | 169/219 [00:13<00:03, 13.03it/s]Loading weights:  78%|███████▊  | 171/219 [00:13<00:04, 10.11it/s]Loading weights:  79%|███████▉  | 174/219 [00:14<00:03, 12.83it/s]Loading weights:  80%|████████  | 176/219 [00:14<00:03, 13.47it/s]Loading weights:  81%|████████▏ | 178/219 [00:14<00:03, 13.24it/s]Loading weights:  82%|████████▏ | 180/219 [00:14<00:03, 10.20it/s]Loading weights:  84%|████████▎ | 183/219 [00:14<00:02, 12.94it/s]Loading weights:  84%|████████▍ | 185/219 [00:14<00:02, 13.56it/s]Loading weights:  85%|████████▌ | 187/219 [00:15<00:02, 13.32it/s]Loading weights:  86%|████████▋ | 189/219 [00:15<00:02, 10.22it/s]Loading weights:  88%|████████▊ | 192/219 [00:15<00:02, 12.95it/s]Loading weights:  89%|████████▊ | 194/219 [00:15<00:01, 13.56it/s]Loading weights:  89%|████████▉ | 196/219 [00:15<00:01, 13.33it/s]Loading weights:  90%|█████████ | 198/219 [00:16<00:02, 10.24it/s]Loading weights:  92%|█████████▏| 201/219 [00:16<00:01, 12.98it/s]Loading weights:  93%|█████████▎| 203/219 [00:16<00:01, 13.58it/s]Loading weights:  94%|█████████▎| 205/219 [00:16<00:01, 13.31it/s]Loading weights:  95%|█████████▍| 207/219 [00:16<00:01, 10.21it/s]Loading weights:  96%|█████████▌| 210/219 [00:16<00:00, 12.95it/s]Loading weights:  97%|█████████▋| 212/219 [00:17<00:00, 13.56it/s]Loading weights:  98%|█████████▊| 214/219 [00:17<00:00, 13.33it/s]Loading weights:  99%|█████████▊| 216/219 [00:17<00:00, 10.17it/s]Loading weights: 100%|██████████| 219/219 [00:18<00:00,  8.17it/s]Loading weights: 100%|██████████| 219/219 [00:18<00:00, 12.14it/s]
+2026-09-24 06:51:27,825 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev "HTTP/1.1 200 OK"
+2026-09-24 06:51:27,915 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/model_index.json "HTTP/1.1 200 OK"
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 18.41it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00,  8.83it/s]
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+Loading weights:  63%|██████▎   | 124/196 [00:00<00:00, 1153.64it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 1274.62it/s]
+Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00,  8.24it/s]
+2026-09-24 06:51:33,788 INFO FluxAestheticAdapter trainable parameters: 743180326
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+2026-09-24 06:53:40,800 INFO step 50/5000  loss=0.4552  mean|gate|=0.0022  mode=dual
+2026-09-24 06:55:50,869 INFO step 100/5000  loss=0.4678  mean|gate|=0.0073  mode=dual
+2026-09-24 06:57:57,591 INFO step 150/5000  loss=0.4544  mean|gate|=0.0118  mode=single
+2026-09-24 07:00:13,738 INFO step 200/5000  loss=0.4515  mean|gate|=0.0141  mode=dual
+2026-09-24 07:02:30,076 INFO step 250/5000  loss=0.4732  mean|gate|=0.0147  mode=single
+2026-09-24 07:04:37,456 INFO step 300/5000  loss=0.4438  mean|gate|=0.0145  mode=single
+2026-09-24 07:06:54,106 INFO step 350/5000  loss=0.4549  mean|gate|=0.0148  mode=single
+2026-09-24 07:09:01,592 INFO step 400/5000  loss=0.4007  mean|gate|=0.0147  mode=single
+2026-09-24 07:11:17,887 INFO step 450/5000  loss=0.4296  mean|gate|=0.0148  mode=dual
+2026-09-24 07:13:25,629 INFO step 500/5000  loss=0.4369  mean|gate|=0.0144  mode=single
+2026-09-24 07:15:33,594 INFO step 550/5000  loss=0.4558  mean|gate|=0.0140  mode=single
+2026-09-24 07:17:41,680 INFO step 600/5000  loss=0.3848  mean|gate|=0.0143  mode=single
+2026-09-24 07:19:58,344 INFO step 650/5000  loss=0.4727  mean|gate|=0.0143  mode=single
+2026-09-24 07:22:06,142 INFO step 700/5000  loss=0.4460  mean|gate|=0.0145  mode=single
+2026-09-24 07:24:13,912 INFO step 750/5000  loss=0.4296  mean|gate|=0.0146  mode=single
+2026-09-24 07:26:21,609 INFO step 800/5000  loss=0.4621  mean|gate|=0.0140  mode=single
+2026-09-24 07:28:29,514 INFO step 850/5000  loss=0.4440  mean|gate|=0.0140  mode=dropped
+2026-09-24 07:30:37,347 INFO step 900/5000  loss=0.4643  mean|gate|=0.0140  mode=single
+2026-09-24 07:32:45,359 INFO step 950/5000  loss=0.4750  mean|gate|=0.0138  mode=dual
+2026-09-24 07:34:53,245 INFO step 1000/5000  loss=0.4558  mean|gate|=0.0142  mode=single
+2026-09-24 07:37:01,218 INFO step 1050/5000  loss=0.4480  mean|gate|=0.0140  mode=dropped
+2026-09-24 07:39:09,381 INFO step 1100/5000  loss=0.4226  mean|gate|=0.0140  mode=single
+2026-09-24 07:41:17,633 INFO step 1150/5000  loss=0.4743  mean|gate|=0.0135  mode=dual
+2026-09-24 07:43:25,791 INFO step 1200/5000  loss=0.4641  mean|gate|=0.0136  mode=single
+2026-09-24 07:45:33,743 INFO step 1250/5000  loss=0.4310  mean|gate|=0.0136  mode=dual
+2026-09-24 07:47:41,747 INFO step 1300/5000  loss=0.4506  mean|gate|=0.0133  mode=dual
+2026-09-24 07:49:49,440 INFO step 1350/5000  loss=0.4275  mean|gate|=0.0140  mode=dual
+2026-09-24 07:51:57,160 INFO step 1400/5000  loss=0.4591  mean|gate|=0.0136  mode=dual
+2026-09-24 07:54:04,793 INFO step 1450/5000  loss=0.4464  mean|gate|=0.0134  mode=dual
+2026-09-24 07:56:12,680 INFO step 1500/5000  loss=0.4618  mean|gate|=0.0132  mode=dual
+2026-09-24 07:58:20,619 INFO step 1550/5000  loss=0.4665  mean|gate|=0.0134  mode=single
+2026-09-24 08:00:28,883 INFO step 1600/5000  loss=0.4509  mean|gate|=0.0135  mode=single
+2026-09-24 08:02:37,305 INFO step 1650/5000  loss=0.4417  mean|gate|=0.0136  mode=single
+2026-09-24 08:04:45,722 INFO step 1700/5000  loss=0.4418  mean|gate|=0.0133  mode=single
+2026-09-24 08:06:54,139 INFO step 1750/5000  loss=0.4697  mean|gate|=0.0131  mode=dual
+2026-09-24 08:09:02,796 INFO step 1800/5000  loss=0.4511  mean|gate|=0.0133  mode=dual
+2026-09-24 08:11:11,585 INFO step 1850/5000  loss=0.4341  mean|gate|=0.0128  mode=single
+2026-09-24 08:13:20,387 INFO step 1900/5000  loss=0.4461  mean|gate|=0.0130  mode=single
+2026-09-24 08:15:29,223 INFO step 1950/5000  loss=0.4380  mean|gate|=0.0130  mode=single
+2026-09-24 08:17:37,903 INFO step 2000/5000  loss=0.4837  mean|gate|=0.0129  mode=single
+2026-09-24 08:19:46,357 INFO step 2050/5000  loss=0.4281  mean|gate|=0.0131  mode=dual
+2026-09-24 08:21:54,697 INFO step 2100/5000  loss=0.4246  mean|gate|=0.0133  mode=dual
+2026-09-24 08:24:03,232 INFO step 2150/5000  loss=0.4717  mean|gate|=0.0132  mode=single
+2026-09-24 08:26:11,675 INFO step 2200/5000  loss=0.4334  mean|gate|=0.0129  mode=single
+2026-09-24 08:28:20,169 INFO step 2250/5000  loss=0.4710  mean|gate|=0.0135  mode=dropped
+2026-09-24 08:30:28,901 INFO step 2300/5000  loss=0.4579  mean|gate|=0.0131  mode=single
+2026-09-24 08:32:37,520 INFO step 2350/5000  loss=0.4813  mean|gate|=0.0132  mode=single
+2026-09-24 08:34:46,202 INFO step 2400/5000  loss=0.4266  mean|gate|=0.0133  mode=single
+2026-09-24 08:36:54,833 INFO step 2450/5000  loss=0.4623  mean|gate|=0.0128  mode=single
+2026-09-24 08:39:03,266 INFO step 2500/5000  loss=0.4415  mean|gate|=0.0128  mode=single
+2026-09-24 08:41:11,662 INFO step 2550/5000  loss=0.4398  mean|gate|=0.0126  mode=single
+2026-09-24 08:43:20,417 INFO step 2600/5000  loss=0.4597  mean|gate|=0.0124  mode=single
+2026-09-24 08:45:28,991 INFO step 2650/5000  loss=0.4549  mean|gate|=0.0123  mode=dual
+2026-09-24 08:47:37,767 INFO step 2700/5000  loss=0.4192  mean|gate|=0.0129  mode=single
+2026-09-24 08:49:46,405 INFO step 2750/5000  loss=0.4163  mean|gate|=0.0128  mode=single
+2026-09-24 08:51:55,079 INFO step 2800/5000  loss=0.4450  mean|gate|=0.0126  mode=single
+2026-09-24 08:54:03,969 INFO step 2850/5000  loss=0.4546  mean|gate|=0.0127  mode=single
+2026-09-24 08:56:12,677 INFO step 2900/5000  loss=0.4363  mean|gate|=0.0122  mode=single
+2026-09-24 08:58:21,209 INFO step 2950/5000  loss=0.4375  mean|gate|=0.0125  mode=dual
+2026-09-24 09:00:29,519 INFO step 3000/5000  loss=0.4531  mean|gate|=0.0127  mode=single
+2026-09-24 09:02:37,672 INFO step 3050/5000  loss=0.4767  mean|gate|=0.0126  mode=single
+2026-09-24 09:04:45,865 INFO step 3100/5000  loss=0.4532  mean|gate|=0.0127  mode=single
+2026-09-24 09:06:54,235 INFO step 3150/5000  loss=0.4468  mean|gate|=0.0131  mode=single
+2026-09-24 09:09:02,792 INFO step 3200/5000  loss=0.4084  mean|gate|=0.0126  mode=single
+2026-09-24 09:11:11,325 INFO step 3250/5000  loss=0.4603  mean|gate|=0.0126  mode=single
+2026-09-24 09:13:19,907 INFO step 3300/5000  loss=0.4405  mean|gate|=0.0126  mode=dropped
+2026-09-24 09:15:28,716 INFO step 3350/5000  loss=0.4437  mean|gate|=0.0123  mode=single
+2026-09-24 09:17:37,298 INFO step 3400/5000  loss=0.4166  mean|gate|=0.0127  mode=dual
+2026-09-24 09:19:45,621 INFO step 3450/5000  loss=0.4545  mean|gate|=0.0125  mode=single
+2026-09-24 09:21:53,789 INFO step 3500/5000  loss=0.4294  mean|gate|=0.0121  mode=single
+2026-09-24 09:24:01,977 INFO step 3550/5000  loss=0.4390  mean|gate|=0.0124  mode=single
+2026-09-24 09:26:10,360 INFO step 3600/5000  loss=0.4613  mean|gate|=0.0124  mode=single
+2026-09-24 09:28:18,932 INFO step 3650/5000  loss=0.4756  mean|gate|=0.0126  mode=dual
+2026-09-24 09:30:27,935 INFO step 3700/5000  loss=0.4143  mean|gate|=0.0128  mode=single
+2026-09-24 09:32:36,932 INFO step 3750/5000  loss=0.4476  mean|gate|=0.0126  mode=dual
+2026-09-24 09:34:46,029 INFO step 3800/5000  loss=0.4656  mean|gate|=0.0129  mode=single
+2026-09-24 09:36:55,359 INFO step 3850/5000  loss=0.4545  mean|gate|=0.0127  mode=single
+2026-09-24 09:39:04,489 INFO step 3900/5000  loss=0.4501  mean|gate|=0.0125  mode=dual
+2026-09-24 09:41:13,463 INFO step 3950/5000  loss=0.4384  mean|gate|=0.0122  mode=single
+2026-09-24 09:43:22,322 INFO step 4000/5000  loss=0.4231  mean|gate|=0.0123  mode=dual
+2026-09-24 09:45:31,251 INFO step 4050/5000  loss=0.4319  mean|gate|=0.0124  mode=single
+2026-09-24 09:47:40,491 INFO step 4100/5000  loss=0.4154  mean|gate|=0.0123  mode=single
+2026-09-24 09:49:49,978 INFO step 4150/5000  loss=0.4399  mean|gate|=0.0128  mode=single
+2026-09-24 09:51:59,244 INFO step 4200/5000  loss=0.4502  mean|gate|=0.0125  mode=single
+2026-09-24 09:54:08,590 INFO step 4250/5000  loss=0.4195  mean|gate|=0.0127  mode=dropped
+2026-09-24 09:56:17,779 INFO step 4300/5000  loss=0.4703  mean|gate|=0.0127  mode=single
+2026-09-24 09:58:27,079 INFO step 4350/5000  loss=0.4722  mean|gate|=0.0125  mode=single
+2026-09-24 10:00:36,309 INFO step 4400/5000  loss=0.4481  mean|gate|=0.0124  mode=single
+2026-09-24 10:02:45,530 INFO step 4450/5000  loss=0.4451  mean|gate|=0.0125  mode=single
+2026-09-24 10:04:54,759 INFO step 4500/5000  loss=0.4477  mean|gate|=0.0126  mode=single
+2026-09-24 10:07:04,007 INFO step 4550/5000  loss=0.4405  mean|gate|=0.0126  mode=dual
+2026-09-24 10:09:13,415 INFO step 4600/5000  loss=0.4470  mean|gate|=0.0123  mode=dropped
+2026-09-24 10:11:22,871 INFO step 4650/5000  loss=0.4532  mean|gate|=0.0123  mode=dual
+2026-09-24 10:13:32,204 INFO step 4700/5000  loss=0.4403  mean|gate|=0.0124  mode=single
+2026-09-24 10:15:41,390 INFO step 4750/5000  loss=0.4825  mean|gate|=0.0126  mode=single
+2026-09-24 10:17:50,686 INFO step 4800/5000  loss=0.4497  mean|gate|=0.0124  mode=single
+2026-09-24 10:19:59,954 INFO step 4850/5000  loss=0.4119  mean|gate|=0.0120  mode=single
+2026-09-24 10:22:09,180 INFO step 4900/5000  loss=0.4620  mean|gate|=0.0124  mode=dropped
+2026-09-24 10:24:18,619 INFO step 4950/5000  loss=0.4477  mean|gate|=0.0123  mode=dual
+2026-09-24 10:26:27,888 INFO step 5000/5000  loss=0.4413  mean|gate|=0.0127  mode=single
+2026-09-24 10:26:27,945 INFO Final GPU peak alloc=20.19 GiB  peak reserved=20.78 GiB
+2026-09-24 10:26:27,945 INFO Done. Best loss 0.3848. Checkpoint: aesthetic_adapter/checkpoints/kontext_aesthetic_adapter/best.pt

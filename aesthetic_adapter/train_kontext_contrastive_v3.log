@@ -1,0 +1,172 @@
+2026-09-28 08:52:15,590 INFO Bootstrap corpus: 2673 image-modality files (limit=None)
+2026-09-28 08:52:43,800 INFO Captions ready for 2673/2673 files
+2026-09-28 08:52:44,471 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:44,490 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:44,612 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  23%|██▎       | 133/590 [00:00<00:00, 1286.08it/s]Loading weights:  44%|████▍     | 262/590 [00:00<00:00, 1160.57it/s]Loading weights:  64%|██████▍   | 379/590 [00:00<00:00, 1143.85it/s]Loading weights:  84%|████████▎ | 494/590 [00:00<00:00, 1114.04it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 1130.48it/s]
+2026-09-28 08:52:49,258 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,360 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,457 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,557 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,654 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,752 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:49,844 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:49,862 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:49,968 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:50,066 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:50,083 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:50,180 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:50,199 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:50,308 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:50,326 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:50,434 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:50,530 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-09-28 08:52:51,385 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:51,402 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:51,515 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+Loading weights:   0%|          | 0/590 [00:00<?, ?it/s]Loading weights:  77%|███████▋  | 454/590 [00:00<00:00, 4502.99it/s]Loading weights: 100%|██████████| 590/590 [00:00<00:00, 4347.28it/s]
+2026-09-28 08:52:52,226 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,323 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,418 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,513 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,609 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/audio_tokenizer_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,703 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:52,799 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:52,816 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:52,936 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:53,032 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/preprocessor_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:53,049 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/preprocessor_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:53,146 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:53,164 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:53,277 INFO HTTP Request: HEAD https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-09-28 08:52:53,294 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/openai/clip-vit-large-patch14/32bd64288804d66eefd0ccbe215aa642df71cc41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-09-28 08:52:53,389 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-09-28 08:52:53,488 INFO HTTP Request: GET https://huggingface.co/api/models/openai/clip-vit-large-patch14/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+2026-09-28 08:56:37,425 INFO Training examples after caption/encode join: 2673
+2026-09-28 08:56:37,433 INFO Loading black-forest-labs/FLUX.1-Kontext-dev (quantized NF4, frozen, torch.bfloat16, no cpu offload)...
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py:205: UserWarning: The `local_dir_use_symlinks` argument is deprecated and ignored in `hf_hub_download`. Downloading to a local directory does not use symlinks anymore.
+  warnings.warn(
+2026-09-28 08:56:37,534 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/transformer/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:56:37,624 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev "HTTP/1.1 200 OK"
+2026-09-28 08:56:37,715 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev/revision/main "HTTP/1.1 200 OK"
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files: 100%|██████████| 3/3 [00:00<00:00, 1621.09it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:21<00:42, 21.03s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:42<00:21, 21.07s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:50<00:00, 15.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:50<00:00, 16.75s/it]
+2026-09-28 08:57:28,357 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/config.json "HTTP/1.1 200 OK"
+2026-09-28 08:57:28,452 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/model.safetensors "HTTP/1.1 404 Not Found"
+2026-09-28 08:57:28,531 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/text_encoder_2/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-09-28 08:57:28,623 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev/revision/main "HTTP/1.1 200 OK"
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 1702.23it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s]Loading weights:   1%|          | 2/219 [00:00<00:14, 14.93it/s]Loading weights:   2%|▏         | 5/219 [00:00<00:10, 19.92it/s]Loading weights:   4%|▎         | 8/219 [00:00<00:16, 12.93it/s]Loading weights:   5%|▍         | 10/219 [00:00<00:16, 12.88it/s]Loading weights:   5%|▌         | 12/219 [00:00<00:15, 13.54it/s]Loading weights:   6%|▋         | 14/219 [00:00<00:14, 14.15it/s]Loading weights:   7%|▋         | 16/219 [00:01<00:14, 13.69it/s]Loading weights:   8%|▊         | 18/219 [00:01<00:19, 10.19it/s]Loading weights:  10%|▉         | 21/219 [00:01<00:15, 13.05it/s]Loading weights:  11%|█         | 23/219 [00:01<00:14, 13.68it/s]Loading weights:  11%|█▏        | 25/219 [00:01<00:14, 13.38it/s]Loading weights:  12%|█▏        | 27/219 [00:02<00:18, 10.23it/s]Loading weights:  14%|█▎        | 30/219 [00:02<00:14, 13.01it/s]Loading weights:  15%|█▍        | 32/219 [00:02<00:13, 13.64it/s]Loading weights:  16%|█▌        | 34/219 [00:02<00:13, 13.39it/s]Loading weights:  16%|█▋        | 36/219 [00:02<00:17, 10.25it/s]Loading weights:  18%|█▊        | 39/219 [00:03<00:13, 13.01it/s]Loading weights:  19%|█▊        | 41/219 [00:03<00:13, 13.62it/s]Loading weights:  20%|█▉        | 43/219 [00:03<00:13, 13.36it/s]Loading weights:  21%|██        | 45/219 [00:03<00:17, 10.03it/s]Loading weights:  22%|██▏       | 48/219 [00:03<00:13, 12.74it/s]Loading weights:  23%|██▎       | 50/219 [00:03<00:12, 13.40it/s]Loading weights:  24%|██▎       | 52/219 [00:04<00:12, 13.22it/s]Loading weights:  25%|██▍       | 54/219 [00:04<00:16, 10.20it/s]Loading weights:  26%|██▌       | 57/219 [00:04<00:12, 12.95it/s]Loading weights:  27%|██▋       | 59/219 [00:04<00:11, 13.58it/s]Loading weights:  28%|██▊       | 61/219 [00:04<00:11, 13.35it/s]Loading weights:  29%|██▉       | 63/219 [00:05<00:15, 10.26it/s]Loading weights:  30%|███       | 66/219 [00:05<00:11, 12.84it/s]Loading weights:  31%|███       | 68/219 [00:05<00:11, 13.50it/s]Loading weights:  32%|███▏      | 70/219 [00:05<00:11, 13.30it/s]Loading weights:  33%|███▎      | 72/219 [00:05<00:14, 10.23it/s]Loading weights:  34%|███▍      | 75/219 [00:05<00:11, 12.99it/s]Loading weights:  35%|███▌      | 77/219 [00:06<00:10, 13.60it/s]Loading weights:  36%|███▌      | 79/219 [00:06<00:10, 13.37it/s]Loading weights:  37%|███▋      | 81/219 [00:07<00:39,  3.54it/s]Loading weights:  38%|███▊      | 83/219 [00:08<00:44,  3.04it/s]Loading weights:  38%|███▊      | 84/219 [00:09<00:47,  2.84it/s]Loading weights:  39%|███▉      | 85/219 [00:09<00:42,  3.15it/s]Loading weights:  39%|███▉      | 86/219 [00:09<00:43,  3.07it/s]Loading weights:  40%|████      | 88/219 [00:10<00:46,  2.85it/s]Loading weights:  41%|████      | 89/219 [00:11<00:58,  2.23it/s]Loading weights:  41%|████      | 90/219 [00:11<00:56,  2.27it/s]Loading weights:  42%|████▏     | 92/219 [00:11<00:36,  3.44it/s]Loading weights:  42%|████▏     | 93/219 [00:12<00:32,  3.82it/s]Loading weights:  43%|████▎     | 95/219 [00:12<00:26,  4.75it/s]Loading weights:  44%|████▍     | 97/219 [00:12<00:20,  6.07it/s]Loading weights:  45%|████▍     | 98/219 [00:12<00:19,  6.06it/s]Loading weights:  45%|████▌     | 99/219 [00:12<00:18,  6.39it/s]Loading weights:  47%|████▋     | 102/219 [00:12<00:12,  9.41it/s]Loading weights:  47%|████▋     | 104/219 [00:13<00:10, 10.79it/s]Loading weights:  48%|████▊     | 106/219 [00:13<00:09, 11.34it/s]Loading weights:  49%|████▉     | 108/219 [00:13<00:11,  9.52it/s]Loading weights:  51%|█████     | 111/219 [00:13<00:09, 11.67it/s]Loading weights:  52%|█████▏    | 113/219 [00:13<00:08, 12.15it/s]Loading weights:  53%|█████▎    | 115/219 [00:13<00:08, 11.97it/s]Loading weights:  53%|█████▎    | 117/219 [00:14<00:10,  9.33it/s]Loading weights:  55%|█████▍    | 120/219 [00:14<00:08, 11.97it/s]Loading weights:  56%|█████▌    | 122/219 [00:14<00:07, 12.48it/s]Loading weights:  57%|█████▋    | 124/219 [00:14<00:07, 12.41it/s]Loading weights:  58%|█████▊    | 126/219 [00:15<00:09,  9.43it/s]Loading weights:  59%|█████▉    | 129/219 [00:15<00:07, 11.86it/s]Loading weights:  60%|█████▉    | 131/219 [00:15<00:06, 12.68it/s]Loading weights:  61%|██████    | 133/219 [00:15<00:06, 12.67it/s]Loading weights:  62%|██████▏   | 135/219 [00:15<00:08,  9.95it/s]Loading weights:  63%|██████▎   | 138/219 [00:15<00:06, 12.67it/s]Loading weights:  64%|██████▍   | 140/219 [00:16<00:05, 13.36it/s]Loading weights:  65%|██████▍   | 142/219 [00:16<00:05, 13.20it/s]Loading weights:  66%|██████▌   | 144/219 [00:16<00:07, 10.20it/s]Loading weights:  67%|██████▋   | 147/219 [00:16<00:05, 12.92it/s]Loading weights:  68%|██████▊   | 149/219 [00:16<00:05, 13.55it/s]Loading weights:  69%|██████▉   | 151/219 [00:16<00:05, 12.90it/s]Loading weights:  70%|██████▉   | 153/219 [00:17<00:06,  9.90it/s]Loading weights:  71%|███████   | 156/219 [00:17<00:05, 12.12it/s]Loading weights:  72%|███████▏  | 158/219 [00:17<00:04, 12.82it/s]Loading weights:  73%|███████▎  | 160/219 [00:17<00:04, 12.72it/s]Loading weights:  74%|███████▍  | 162/219 [00:18<00:05,  9.95it/s]Loading weights:  75%|███████▌  | 165/219 [00:18<00:04, 12.69it/s]Loading weights:  76%|███████▋  | 167/219 [00:18<00:03, 13.35it/s]Loading weights:  77%|███████▋  | 169/219 [00:18<00:03, 13.15it/s]Loading weights:  78%|███████▊  | 171/219 [00:18<00:04, 10.04it/s]Loading weights:  79%|███████▉  | 174/219 [00:18<00:03, 12.77it/s]Loading weights:  80%|████████  | 176/219 [00:19<00:03, 13.43it/s]Loading weights:  81%|████████▏ | 178/219 [00:19<00:03, 13.17it/s]Loading weights:  82%|████████▏ | 180/219 [00:19<00:03, 10.09it/s]Loading weights:  84%|████████▎ | 183/219 [00:19<00:02, 12.82it/s]Loading weights:  84%|████████▍ | 185/219 [00:19<00:02, 13.40it/s]Loading weights:  85%|████████▌ | 187/219 [00:19<00:02, 13.21it/s]Loading weights:  86%|████████▋ | 189/219 [00:20<00:02, 10.03it/s]Loading weights:  88%|████████▊ | 192/219 [00:20<00:02, 12.58it/s]Loading weights:  89%|████████▊ | 194/219 [00:20<00:01, 13.27it/s]Loading weights:  89%|████████▉ | 196/219 [00:20<00:01, 13.05it/s]Loading weights:  90%|█████████ | 198/219 [00:21<00:02, 10.11it/s]Loading weights:  92%|█████████▏| 201/219 [00:21<00:01, 12.85it/s]Loading weights:  93%|█████████▎| 203/219 [00:21<00:01, 13.49it/s]Loading weights:  94%|█████████▎| 205/219 [00:21<00:01, 13.08it/s]Loading weights:  95%|█████████▍| 207/219 [00:21<00:01, 10.07it/s]Loading weights:  96%|█████████▌| 210/219 [00:21<00:00, 12.77it/s]Loading weights:  97%|█████████▋| 212/219 [00:22<00:00, 13.42it/s]Loading weights:  98%|█████████▊| 214/219 [00:22<00:00, 13.22it/s]Loading weights:  99%|█████████▊| 216/219 [00:22<00:00, 10.16it/s]Loading weights: 100%|██████████| 219/219 [00:22<00:00,  8.06it/s]Loading weights: 100%|██████████| 219/219 [00:22<00:00,  9.53it/s]
+2026-09-28 08:57:51,947 INFO HTTP Request: GET https://huggingface.co/api/models/black-forest-labs/FLUX.1-Kontext-dev "HTTP/1.1 200 OK"
+2026-09-28 08:57:52,032 INFO HTTP Request: HEAD https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/resolve/main/model_index.json "HTTP/1.1 200 OK"
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.04it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:04<00:13,  2.76s/it]
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s][A
+Loading weights:  62%|██████▏   | 122/196 [00:00<00:00, 1194.46it/s][ALoading weights: 100%|██████████| 196/196 [00:00<00:00, 1189.02it/s]
+Loading pipeline components...:  86%|████████▌ | 6/7 [00:05<00:00,  1.44it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:05<00:00,  1.73it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:05<00:00,  1.34it/s]
+2026-09-28 08:58:03,307 INFO FluxAestheticAdapter trainable parameters: 743180326
+/home/ubuntuhome/projects/gen_explore/.venv/lib/python3.12/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+2026-09-28 09:01:25,866 INFO step 50/5000  recon=0.5384  contrastive=0.2576  mean|gate|=0.1589  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:04:46,880 INFO step 100/5000  recon=0.5916  contrastive=0.0922  mean|gate|=0.1401  mode=single  contrastive_axis=explore
+2026-09-28 09:08:08,919 INFO step 150/5000  recon=0.5726  contrastive=0.0862  mean|gate|=0.2013  mode=dual  contrastive_axis=None
+2026-09-28 09:11:37,802 INFO step 200/5000  recon=0.6549  contrastive=0.1146  mean|gate|=0.2040  mode=single  contrastive_axis=explore
+2026-09-28 09:15:00,114 INFO step 250/5000  recon=0.6704  contrastive=0.1107  mean|gate|=0.2236  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:18:27,605 INFO step 300/5000  recon=0.6797  contrastive=0.1269  mean|gate|=0.1859  mode=dropped  contrastive_axis=None
+2026-09-28 09:21:59,886 INFO step 350/5000  recon=0.5899  contrastive=0.1164  mean|gate|=0.1872  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:25:27,800 INFO step 400/5000  recon=0.6333  contrastive=0.1061  mean|gate|=0.1858  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:29:00,651 INFO step 450/5000  recon=0.6478  contrastive=0.0745  mean|gate|=0.2394  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:32:42,750 INFO step 500/5000  recon=0.6194  contrastive=0.1020  mean|gate|=0.2390  mode=single  contrastive_axis=explore
+2026-09-28 09:36:27,164 INFO step 550/5000  recon=0.6014  contrastive=0.1246  mean|gate|=0.2003  mode=single  contrastive_axis=explore
+2026-09-28 09:40:04,793 INFO step 600/5000  recon=0.6995  contrastive=0.1133  mean|gate|=0.2056  mode=single  contrastive_axis=explore
+2026-09-28 09:43:39,626 INFO step 650/5000  recon=0.6310  contrastive=0.1065  mean|gate|=0.2272  mode=single  contrastive_axis=explore
+2026-09-28 09:47:25,947 INFO step 700/5000  recon=0.6099  contrastive=0.0731  mean|gate|=0.2370  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:50:54,220 INFO step 750/5000  recon=0.6296  contrastive=0.0870  mean|gate|=0.2250  mode=single  contrastive_axis=aesthetic
+2026-09-28 09:54:27,288 INFO step 800/5000  recon=0.6143  contrastive=0.0921  mean|gate|=0.1980  mode=dual  contrastive_axis=None
+2026-09-28 09:58:00,566 INFO step 850/5000  recon=0.5616  contrastive=0.0826  mean|gate|=0.2277  mode=single  contrastive_axis=aesthetic
+2026-09-28 10:01:33,727 INFO step 900/5000  recon=0.6261  contrastive=0.1081  mean|gate|=0.2446  mode=single  contrastive_axis=explore
+2026-09-28 10:04:50,485 INFO step 950/5000  recon=0.6380  contrastive=0.0668  mean|gate|=0.2578  mode=single  contrastive_axis=explore
+2026-09-28 10:08:09,510 INFO step 1000/5000  recon=0.5914  contrastive=0.1200  mean|gate|=0.2518  mode=single  contrastive_axis=explore
+2026-09-28 10:11:37,404 INFO step 1050/5000  recon=0.5673  contrastive=0.0780  mean|gate|=0.2445  mode=single  contrastive_axis=explore
+2026-09-28 10:15:03,052 INFO step 1100/5000  recon=0.5927  contrastive=0.1086  mean|gate|=0.2399  mode=dropped  contrastive_axis=None
+2026-09-28 10:18:30,688 INFO step 1150/5000  recon=0.5906  contrastive=0.1093  mean|gate|=0.2593  mode=single  contrastive_axis=aesthetic
+2026-09-28 10:22:00,808 INFO step 1200/5000  recon=0.5907  contrastive=0.1219  mean|gate|=0.2658  mode=dropped  contrastive_axis=None
+2026-09-28 10:25:22,138 INFO step 1250/5000  recon=0.6022  contrastive=0.1015  mean|gate|=0.2657  mode=single  contrastive_axis=aesthetic
+2026-09-28 10:28:50,523 INFO step 1300/5000  recon=0.6003  contrastive=0.0931  mean|gate|=0.2612  mode=single  contrastive_axis=explore
+2026-09-28 10:32:16,298 INFO step 1350/5000  recon=0.5813  contrastive=0.1031  mean|gate|=0.2452  mode=single  contrastive_axis=aesthetic
+2026-09-28 10:35:41,683 INFO step 1400/5000  recon=0.5998  contrastive=0.0802  mean|gate|=0.2045  mode=dual  contrastive_axis=None
+2026-09-28 10:39:09,274 INFO step 1450/5000  recon=0.5577  contrastive=0.0613  mean|gate|=0.1913  mode=single  contrastive_axis=explore
+2026-09-28 10:42:32,760 INFO step 1500/5000  recon=0.5492  contrastive=0.0994  mean|gate|=0.1886  mode=dropped  contrastive_axis=None
+2026-09-28 10:45:58,630 INFO step 1550/5000  recon=0.5548  contrastive=0.0967  mean|gate|=0.2293  mode=single  contrastive_axis=aesthetic
+2026-09-28 10:49:08,659 INFO step 1600/5000  recon=0.5431  contrastive=0.0532  mean|gate|=0.2385  mode=dual  contrastive_axis=None
+2026-09-28 10:52:30,192 INFO step 1650/5000  recon=0.5949  contrastive=0.0720  mean|gate|=0.2228  mode=dual  contrastive_axis=None
+2026-09-28 10:55:51,582 INFO step 1700/5000  recon=0.6451  contrastive=0.0537  mean|gate|=0.2379  mode=dual  contrastive_axis=None
+2026-09-28 10:59:24,533 INFO step 1750/5000  recon=0.6476  contrastive=0.0541  mean|gate|=0.2319  mode=dual  contrastive_axis=None
+2026-09-28 11:02:57,539 INFO step 1800/5000  recon=0.6007  contrastive=0.0889  mean|gate|=0.2223  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:06:23,249 INFO step 1850/5000  recon=0.5972  contrastive=0.0819  mean|gate|=0.2160  mode=single  contrastive_axis=explore
+2026-09-28 11:09:51,627 INFO step 1900/5000  recon=0.6114  contrastive=0.0834  mean|gate|=0.2272  mode=dropped  contrastive_axis=None
+2026-09-28 11:13:24,558 INFO step 1950/5000  recon=0.5895  contrastive=0.0934  mean|gate|=0.2257  mode=single  contrastive_axis=explore
+2026-09-28 11:16:53,402 INFO step 2000/5000  recon=0.6004  contrastive=0.0799  mean|gate|=0.2402  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:20:16,964 INFO step 2050/5000  recon=0.5901  contrastive=0.0849  mean|gate|=0.2501  mode=dual  contrastive_axis=None
+2026-09-28 11:23:43,384 INFO step 2100/5000  recon=0.6182  contrastive=0.0659  mean|gate|=0.2497  mode=dual  contrastive_axis=None
+2026-09-28 11:27:05,323 INFO step 2150/5000  recon=0.5946  contrastive=0.0615  mean|gate|=0.2204  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:30:24,605 INFO step 2200/5000  recon=0.5557  contrastive=0.0750  mean|gate|=0.2317  mode=dual  contrastive_axis=None
+2026-09-28 11:33:50,884 INFO step 2250/5000  recon=0.5858  contrastive=0.0553  mean|gate|=0.2040  mode=single  contrastive_axis=explore
+2026-09-28 11:37:19,053 INFO step 2300/5000  recon=0.5520  contrastive=0.0421  mean|gate|=0.2374  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:40:40,430 INFO step 2350/5000  recon=0.5276  contrastive=0.0877  mean|gate|=0.2299  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:44:09,981 INFO step 2400/5000  recon=0.6034  contrastive=0.0407  mean|gate|=0.1913  mode=dropped  contrastive_axis=None
+2026-09-28 11:47:38,446 INFO step 2450/5000  recon=0.5929  contrastive=0.0852  mean|gate|=0.2158  mode=single  contrastive_axis=explore
+2026-09-28 11:50:59,629 INFO step 2500/5000  recon=0.6098  contrastive=0.0511  mean|gate|=0.2023  mode=dual  contrastive_axis=None
+2026-09-28 11:54:23,509 INFO step 2550/5000  recon=0.6094  contrastive=0.0628  mean|gate|=0.2023  mode=single  contrastive_axis=aesthetic
+2026-09-28 11:57:52,253 INFO step 2600/5000  recon=0.5508  contrastive=0.0966  mean|gate|=0.2153  mode=single  contrastive_axis=aesthetic
+2026-09-28 12:01:09,253 INFO step 2650/5000  recon=0.5628  contrastive=0.0593  mean|gate|=0.2195  mode=dual  contrastive_axis=None
+2026-09-28 12:04:47,443 INFO step 2700/5000  recon=0.6070  contrastive=0.0678  mean|gate|=0.2043  mode=single  contrastive_axis=explore
+2026-09-28 12:08:17,968 INFO step 2750/5000  recon=0.5608  contrastive=0.0769  mean|gate|=0.2132  mode=single  contrastive_axis=aesthetic
+2026-09-28 12:11:44,055 INFO step 2800/5000  recon=0.5839  contrastive=0.0776  mean|gate|=0.2302  mode=dual  contrastive_axis=None
+2026-09-28 12:15:05,540 INFO step 2850/5000  recon=0.5938  contrastive=0.0712  mean|gate|=0.2047  mode=dual  contrastive_axis=None
+2026-09-28 12:18:36,380 INFO step 2900/5000  recon=0.5486  contrastive=0.0882  mean|gate|=0.2176  mode=single  contrastive_axis=aesthetic
+2026-09-28 12:21:55,411 INFO step 2950/5000  recon=0.5549  contrastive=0.0450  mean|gate|=0.2130  mode=dual  contrastive_axis=None
+2026-09-28 12:25:28,565 INFO step 3000/5000  recon=0.5801  contrastive=0.0994  mean|gate|=0.1845  mode=single  contrastive_axis=explore
+2026-09-28 12:28:48,072 INFO step 3050/5000  recon=0.5394  contrastive=0.0739  mean|gate|=0.2233  mode=dual  contrastive_axis=None
+2026-09-28 12:32:23,358 INFO step 3100/5000  recon=0.5736  contrastive=0.0748  mean|gate|=0.2379  mode=single  contrastive_axis=aesthetic
+2026-09-28 12:35:56,264 INFO step 3150/5000  recon=0.5958  contrastive=0.0393  mean|gate|=0.2303  mode=dual  contrastive_axis=None
+2026-09-28 12:39:29,442 INFO step 3200/5000  recon=0.6287  contrastive=0.0632  mean|gate|=0.2321  mode=single  contrastive_axis=explore
+2026-09-28 12:42:55,335 INFO step 3250/5000  recon=0.6031  contrastive=0.0523  mean|gate|=0.2112  mode=dual  contrastive_axis=None
+2026-09-28 12:46:25,822 INFO step 3300/5000  recon=0.5558  contrastive=0.0573  mean|gate|=0.2041  mode=dual  contrastive_axis=None
+2026-09-28 12:49:39,951 INFO step 3350/5000  recon=0.5304  contrastive=0.0679  mean|gate|=0.2062  mode=dual  contrastive_axis=None
+2026-09-28 12:53:10,651 INFO step 3400/5000  recon=0.5794  contrastive=0.0777  mean|gate|=0.2053  mode=single  contrastive_axis=explore
+2026-09-28 12:56:45,832 INFO step 3450/5000  recon=0.6517  contrastive=0.0695  mean|gate|=0.1987  mode=single  contrastive_axis=explore
+2026-09-28 13:00:21,237 INFO step 3500/5000  recon=0.5930  contrastive=0.0425  mean|gate|=0.2348  mode=single  contrastive_axis=explore
+2026-09-28 13:03:45,071 INFO step 3550/5000  recon=0.5733  contrastive=0.0586  mean|gate|=0.1970  mode=dropped  contrastive_axis=None
+2026-09-28 13:07:22,933 INFO step 3600/5000  recon=0.5981  contrastive=0.0888  mean|gate|=0.2145  mode=dual  contrastive_axis=None
+2026-09-28 13:10:49,168 INFO step 3650/5000  recon=0.5967  contrastive=0.0703  mean|gate|=0.2159  mode=single  contrastive_axis=explore
+2026-09-28 13:14:13,012 INFO step 3700/5000  recon=0.5935  contrastive=0.0629  mean|gate|=0.2324  mode=single  contrastive_axis=explore
+2026-09-28 13:17:41,581 INFO step 3750/5000  recon=0.6054  contrastive=0.0798  mean|gate|=0.2223  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:21:09,781 INFO step 3800/5000  recon=0.6592  contrastive=0.0437  mean|gate|=0.2252  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:24:40,616 INFO step 3850/5000  recon=0.6075  contrastive=0.0732  mean|gate|=0.2276  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:28:25,283 INFO step 3900/5000  recon=0.6385  contrastive=0.0686  mean|gate|=0.2341  mode=single  contrastive_axis=explore
+2026-09-28 13:31:51,472 INFO step 3950/5000  recon=0.6059  contrastive=0.0711  mean|gate|=0.2292  mode=dropped  contrastive_axis=None
+2026-09-28 13:35:32,104 INFO step 4000/5000  recon=0.5892  contrastive=0.0694  mean|gate|=0.2035  mode=single  contrastive_axis=explore
+2026-09-28 13:39:10,102 INFO step 4050/5000  recon=0.5399  contrastive=0.0709  mean|gate|=0.2170  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:42:36,288 INFO step 4100/5000  recon=0.5562  contrastive=0.0593  mean|gate|=0.2210  mode=single  contrastive_axis=explore
+2026-09-28 13:46:02,354 INFO step 4150/5000  recon=0.5908  contrastive=0.0920  mean|gate|=0.2441  mode=dual  contrastive_axis=None
+2026-09-28 13:49:23,988 INFO step 4200/5000  recon=0.5632  contrastive=0.0725  mean|gate|=0.2200  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:52:47,839 INFO step 4250/5000  recon=0.5475  contrastive=0.0614  mean|gate|=0.2281  mode=single  contrastive_axis=aesthetic
+2026-09-28 13:56:21,141 INFO step 4300/5000  recon=0.5989  contrastive=0.0789  mean|gate|=0.2313  mode=single  contrastive_axis=explore
+2026-09-28 13:59:47,306 INFO step 4350/5000  recon=0.6040  contrastive=0.0738  mean|gate|=0.2360  mode=dual  contrastive_axis=None
+2026-09-28 14:03:20,746 INFO step 4400/5000  recon=0.5709  contrastive=0.0733  mean|gate|=0.2279  mode=dual  contrastive_axis=None
+2026-09-28 14:06:53,915 INFO step 4450/5000  recon=0.6605  contrastive=0.0770  mean|gate|=0.2450  mode=single  contrastive_axis=explore
+2026-09-28 14:10:20,012 INFO step 4500/5000  recon=0.5505  contrastive=0.0617  mean|gate|=0.2652  mode=single  contrastive_axis=aesthetic
+2026-09-28 14:13:25,373 INFO step 4550/5000  recon=0.5343  contrastive=0.0786  mean|gate|=0.2623  mode=dropped  contrastive_axis=None
+2026-09-28 14:16:55,987 INFO step 4600/5000  recon=0.6284  contrastive=0.0616  mean|gate|=0.2427  mode=single  contrastive_axis=aesthetic
+2026-09-28 14:20:29,334 INFO step 4650/5000  recon=0.6222  contrastive=0.0512  mean|gate|=0.2599  mode=single  contrastive_axis=explore
+2026-09-28 14:24:00,217 INFO step 4700/5000  recon=0.6452  contrastive=0.0660  mean|gate|=0.2567  mode=single  contrastive_axis=aesthetic
+2026-09-28 14:27:47,309 INFO step 4750/5000  recon=0.6277  contrastive=0.0657  mean|gate|=0.2500  mode=single  contrastive_axis=aesthetic
+2026-09-28 14:31:11,075 INFO step 4800/5000  recon=0.5514  contrastive=0.0916  mean|gate|=0.2292  mode=dual  contrastive_axis=None
+2026-09-28 14:34:34,733 INFO step 4850/5000  recon=0.5505  contrastive=0.0620  mean|gate|=0.2592  mode=single  contrastive_axis=explore
+2026-09-28 14:38:03,250 INFO step 4900/5000  recon=0.5564  contrastive=0.0277  mean|gate|=0.2445  mode=single  contrastive_axis=explore
+2026-09-28 14:41:33,851 INFO step 4950/5000  recon=0.5980  contrastive=0.0609  mean|gate|=0.2345  mode=single  contrastive_axis=explore
+2026-09-28 14:45:00,042 INFO step 5000/5000  recon=0.5609  contrastive=0.0441  mean|gate|=0.2284  mode=single  contrastive_axis=aesthetic
+2026-09-28 14:45:00,104 INFO Final GPU peak alloc=21.11 GiB  peak reserved=21.83 GiB
+2026-09-28 14:45:00,104 INFO Done. Best loss 0.5276. Checkpoint: checkpoints/kontext_aesthetic_adapter_contrastive_v3/best.pt

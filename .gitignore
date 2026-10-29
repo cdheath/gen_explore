@@ -2,3 +2,10 @@ output/
 __pycache__/
 *.pyc
 .venv/
+
+# model weights / training checkpoints (not tracked; no LFS)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors

@@ -1,0 +1,470 @@
+[
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_0.0_3320.png",
+    "cos_aes": -0.2468905746936798,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_1.0_3320.png",
+    "cos_aes": -0.13766345381736755,
+    "clip_score": 23.247095108032227
+  },
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_2.0_3320.png",
+    "cos_aes": 0.21687938272953033,
+    "clip_score": 24.529338836669922
+  },
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_0.0_3584.png",
+    "cos_aes": 0.08478952944278717,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_1.0_3584.png",
+    "cos_aes": 0.1948835849761963,
+    "clip_score": 23.399154663085938
+  },
+  {
+    "source": "aesthetic",
+    "label": "elegiac",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_elegiac_2.0_3584.png",
+    "cos_aes": 0.3308471441268921,
+    "clip_score": 23.689441680908203
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_0.0_3320.png",
+    "cos_aes": -0.14410650730133057,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_1.0_3320.png",
+    "cos_aes": -0.3380463719367981,
+    "clip_score": 23.331228256225586
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_2.0_3320.png",
+    "cos_aes": -0.2440972626209259,
+    "clip_score": 20.269424438476562
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_0.0_3584.png",
+    "cos_aes": 0.07850249111652374,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_1.0_3584.png",
+    "cos_aes": -0.09360270202159882,
+    "clip_score": 22.510889053344727
+  },
+  {
+    "source": "aesthetic",
+    "label": "uncanny",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_uncanny_2.0_3584.png",
+    "cos_aes": -0.12490084022283554,
+    "clip_score": 22.996517181396484
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_0.0_3320.png",
+    "cos_aes": 0.907654345035553,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_1.0_3320.png",
+    "cos_aes": 0.9541010856628418,
+    "clip_score": 27.62717628479004
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_2.0_3320.png",
+    "cos_aes": 0.6989458799362183,
+    "clip_score": 20.61245346069336
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_0.0_3584.png",
+    "cos_aes": 0.14444753527641296,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_1.0_3584.png",
+    "cos_aes": 0.4204425811767578,
+    "clip_score": 21.625808715820312
+  },
+  {
+    "source": "aesthetic",
+    "label": "idyllic",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_idyllic_2.0_3584.png",
+    "cos_aes": -0.24317708611488342,
+    "clip_score": 25.749731063842773
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_0.0_3320.png",
+    "cos_aes": -0.4106869101524353,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_1.0_3320.png",
+    "cos_aes": -0.44969049096107483,
+    "clip_score": 20.975215911865234
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_2.0_3320.png",
+    "cos_aes": 0.07773184776306152,
+    "clip_score": 26.17449378967285
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_0.0_3584.png",
+    "cos_aes": -0.4685019552707672,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_1.0_3584.png",
+    "cos_aes": -0.48059552907943726,
+    "clip_score": 21.56992530822754
+  },
+  {
+    "source": "aesthetic",
+    "label": "sublime",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/aesthetic_sublime_2.0_3584.png",
+    "cos_aes": -0.42672300338745117,
+    "clip_score": 26.506351470947266
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_0.0_3320.png",
+    "cos_exp": -0.36786895990371704,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_1.0_3320.png",
+    "cos_exp": -0.27038007974624634,
+    "clip_score": 27.119211196899414
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_2.0_3320.png",
+    "cos_exp": -0.20513488352298737,
+    "clip_score": 28.387556076049805
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_0.0_3584.png",
+    "cos_exp": 0.5587822198867798,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_1.0_3584.png",
+    "cos_exp": 0.5671672821044922,
+    "clip_score": 22.28331184387207
+  },
+  {
+    "source": "explore",
+    "label": "serene-harmony",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_serene-harmony_2.0_3584.png",
+    "cos_exp": 0.22623544931411743,
+    "clip_score": 25.176429748535156
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_0.0_3320.png",
+    "cos_exp": 0.2287912517786026,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_1.0_3320.png",
+    "cos_exp": 0.19615769386291504,
+    "clip_score": 25.448667526245117
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_2.0_3320.png",
+    "cos_exp": 0.22827687859535217,
+    "clip_score": 16.740488052368164
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_0.0_3584.png",
+    "cos_exp": 0.04800806939601898,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_1.0_3584.png",
+    "cos_exp": -0.11363011598587036,
+    "clip_score": 22.5073184967041
+  },
+  {
+    "source": "explore",
+    "label": "ominous-foreboding",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_ominous-foreboding_2.0_3584.png",
+    "cos_exp": 0.24777057766914368,
+    "clip_score": 14.162981033325195
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_0.0_3320.png",
+    "cos_exp": -0.0822782963514328,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_1.0_3320.png",
+    "cos_exp": 0.05126643925905228,
+    "clip_score": 27.241886138916016
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_2.0_3320.png",
+    "cos_exp": 0.7248377799987793,
+    "clip_score": 22.127290725708008
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_0.0_3584.png",
+    "cos_exp": -0.010770096443593502,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_1.0_3584.png",
+    "cos_exp": -0.054042018949985504,
+    "clip_score": 23.197311401367188
+  },
+  {
+    "source": "explore",
+    "label": "dramatic-tension",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_dramatic-tension_2.0_3584.png",
+    "cos_exp": 0.07451853156089783,
+    "clip_score": 21.893590927124023
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a person standing in a park",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_0.0_3320.png",
+    "cos_exp": 0.5689061880111694,
+    "clip_score": 20.80181121826172
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a person standing in a park",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_1.0_3320.png",
+    "cos_exp": 0.0968942791223526,
+    "clip_score": 16.755151748657227
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a person standing in a park",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_2.0_3320.png",
+    "cos_exp": 0.3920249044895172,
+    "clip_score": 15.485843658447266
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a house on a hill",
+    "scale": 0.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_0.0_3584.png",
+    "cos_exp": 0.2882162034511566,
+    "clip_score": 21.248950958251953
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a house on a hill",
+    "scale": 1.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_1.0_3584.png",
+    "cos_exp": 0.2778403162956238,
+    "clip_score": 13.552719116210938
+  },
+  {
+    "source": "explore",
+    "label": "cosmic-terror",
+    "prompt": "a house on a hill",
+    "scale": 2.0,
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/explore_cosmic-terror_2.0_3584.png",
+    "cos_exp": 0.2820599675178528,
+    "clip_score": 14.827911376953125
+  },
+  {
+    "kind": "blend",
+    "label": "elegiac_alone",
+    "prompt": "a person standing in a park",
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/blend_elegiac_alone.png",
+    "cos_aes": -0.13766345381736755,
+    "cos_exp": 0.2403007447719574,
+    "clip_score": 23.247095108032227
+  },
+  {
+    "kind": "blend",
+    "label": "ominous-foreboding_alone",
+    "prompt": "a person standing in a park",
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/blend_ominous-foreboding_alone.png",
+    "cos_aes": 0.0680626630783081,
+    "cos_exp": 0.19615769386291504,
+    "clip_score": 25.448667526245117
+  },
+  {
+    "kind": "blend",
+    "label": "both_together",
+    "prompt": "a person standing in a park",
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/blend_both_together.png",
+    "cos_aes": 0.6185840368270874,
+    "cos_exp": 0.5067387819290161,
+    "clip_score": 25.41567039489746
+  },
+  {
+    "kind": "blend",
+    "label": "neither",
+    "prompt": "a person standing in a park",
+    "image": "aesthetic_adapter/eval_output_contrastive_v3/blend_neither.png",
+    "cos_aes": -0.2468905746936798,
+    "cos_exp": 0.2287912517786026,
+    "clip_score": 20.80181121826172
+  }
+]

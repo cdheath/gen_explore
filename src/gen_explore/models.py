@@ -43,13 +43,23 @@ class ModelBundle:
         if self._kontext_pipe is not None:
             del self._kontext_pipe
             self._kontext_pipe = None
+            gc.collect()
             torch.cuda.empty_cache()
+            # Without this, del + empty_cache() can return before the GPU has
+            # actually finished releasing memory back to the driver (matters
+            # here because this swap happens mid-generation, right before
+            # loading the ~11-12GB controlnet pipeline into what should now
+            # be free VRAM) -- invisible to same-process reuse, but a real
+            # gap for whatever tries to allocate immediately after.
+            torch.cuda.synchronize()
 
     def _unload_controlnet(self) -> None:
         if self._controlnet_pipe is not None:
             del self._controlnet_pipe
             self._controlnet_pipe = None
+            gc.collect()
             torch.cuda.empty_cache()
+            torch.cuda.synchronize()
 
     def unload_all(self) -> None:
         """Frees every model this bundle may hold (both pipelines, the HED
@@ -63,6 +73,7 @@ class ModelBundle:
             self.hed_detector = None
         gc.collect()
         torch.cuda.empty_cache()
+        torch.cuda.synchronize()
 
     @property
     def kontext(self) -> FluxKontextPipeline:

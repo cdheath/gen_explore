@@ -1,6 +1,6 @@
 [project]
 name = "gen-explore"
-version = "0.2.0"
+version = "0.2.1"
 description = "Character/background sketch generation: create_character() and create_background() produce superimposed candidate-line SVGs for human cleanup"
 authors = [
     { email = "corey.d.heath@gmail.com" }
@@ -19,6 +19,8 @@ dependencies = [
     "scikit-image>=0.24.0",
     "opencv-python-headless>=4.10.0",
     "bitsandbytes>=0.45.0",
+    "sentimental-encoders",
+    "qwen-vl-utils",
 ]
 
 [build-system]
@@ -36,3 +38,4 @@ explicit = true
 [tool.uv.sources]
 torch = { index = "pytorch-cu126" }
 torchvision = { index = "pytorch-cu126" }
+sentimental-encoders = { path = "../embedding_research/dist/sentimental_encoders-0.2.0-py3-none-any.whl" }
